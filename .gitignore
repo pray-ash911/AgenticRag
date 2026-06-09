@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+.Python
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Environment variables
+.env
+
+# IDE and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Database
+postgres_data/
+*.db
+
+# PDFs (if you want to exclude actual PDF files from data/pdfs)
+data/pdfs/*.pdf
+
+# Logs
+*.log
+
+# Cache
+.pytest_cache/
+.mypy_cache/
