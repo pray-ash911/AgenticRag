@@ -1,6 +1,6 @@
 # Agentic RAG with LangGraph
 
-A scalable Retrieval-Augmented Generation (RAG) system built with LangGraph, featuring intelligent document grading, web search fallback, and persistent session memory.
+A scalable Retrieval-Augmented Generation (RAG) system built with LangGraph and fastapi, featuring intelligent document grading, web search fallback, and persistent session memory.
 
 ## Features
 
@@ -8,7 +8,7 @@ A scalable Retrieval-Augmented Generation (RAG) system built with LangGraph, fea
 - **Document Grading**: LLM-based relevance scoring (Llama 3.1 8B)
 - **Web Search Fallback**: Tavily search integration for knowledge gaps
 - **Session Persistence**: PostgreSQL-backed conversation history
-- **Streaming API**: FastAPI with real-time token streaming
+- **Streaming API**: FastAPI with real-time token streaming.
 - **Interactive Frontend**: Streamlit UI with session management
 
 ## Architecture
