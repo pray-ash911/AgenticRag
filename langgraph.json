@@ -1,0 +1,15 @@
+{
+  "dependencies": [
+    "langchain_core",
+    "langchain_community",
+    "langchain_groq",
+    "langgraph"
+  ],
+  "graphs": {
+    "rag_agent": {
+      "description": "Agentic RAG with LangGraph",
+      "module": "app.core.agent",
+      "export": "agent_executor"
+    }
+  }
+}
